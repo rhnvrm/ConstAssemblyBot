@@ -1,3 +1,4 @@
 .env
 last_line.txt
 *.log
+data.txt
