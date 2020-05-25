@@ -41,6 +41,7 @@ f.close()
 line_to_tweet = int(last_line_data[0])
 line_char = int(last_line_data[1])
 
+pending_tweet = ""
 
 # check for ignorable lines
 while True:
@@ -49,10 +50,12 @@ while True:
         line_to_tweet+=1
     elif re.match("^\d*\.\d*\.\d*", line):
         line_to_tweet+=1
+        pending_tweet = lines[line_to_tweet]
+        line_to_tweet+=1
     else:
         break
 
-pending_tweet = lines[line_to_tweet]
+pending_tweet += lines[line_to_tweet]
 # create tweet
 if len(pending_tweet) > MAX_CHAR_FOR_TWEET:
     new_line_char = min(line_char+MAX_CHAR_FOR_TWEET, len(pending_tweet)) 
