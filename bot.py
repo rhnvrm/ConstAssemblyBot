@@ -70,7 +70,15 @@ else:
     line_to_tweet +=1
     
 logging.info("sending tweet: "+pending_tweet)
-api.update_status(status=pending_tweet)
+
+try:
+    api.update_status(status=pending_tweet)
+except tweepy.TweepError as error:
+    if error.api_code == 187:
+        # Do something special
+        api.update_status(status=pending_tweet+".")
+    else:
+        raise error
 
 of = open('last_line.txt', "w")
 of.writelines([str(line_to_tweet), '\n', str(line_char)])
