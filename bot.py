@@ -21,11 +21,11 @@ def create_api():
     except Exception as e:
         logging.error("Error creating API", exc_info=True)
         raise e
-    logger.info("API created")
+    logging.info("API created")
     return api
 
    
-#api = create_api()
+api = create_api()
 
 # read all lines
 f_data=open('data.txt')
@@ -70,7 +70,7 @@ else:
     line_to_tweet +=1
     
 logging.info("sending tweet: "+pending_tweet)
-#api.update_status(status=pending_tweet)
+api.update_status(status=pending_tweet)
 
 of = open('last_line.txt', "w")
 of.writelines([str(line_to_tweet), '\n', str(line_char)])
