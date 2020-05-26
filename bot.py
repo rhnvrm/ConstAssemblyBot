@@ -3,7 +3,10 @@ import tweepy
 import logging
 import re
 
+# Config
 MAX_CHAR_FOR_TWEET = 240
+BOTNAME = "@ConstAssembly"
+
 logging.basicConfig(filename='bot.log',level=logging.DEBUG)
 
 def create_api():
@@ -116,10 +119,15 @@ else:
 logging.info("sending tweet: ===\n"+pending_tweet+"\n===")
 
 out_tweet = ""
+prev_status = None
 while True: 
     out_tweet = pending_tweet[:240]
     try:
-        api.update_status(status=out_tweet)
+        if prev_status == None:
+            prev_status = api.update_status(status=out_tweet)
+        else:
+            prev_status = api.update_status(status=out_tweet,
+                                       in_reply_to_status_id=prev_status.id)
     except tweepy.TweepError as error:
         if error.api_code == 187:
             # Do something special
