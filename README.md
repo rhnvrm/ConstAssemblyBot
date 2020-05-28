@@ -8,7 +8,12 @@ The bot resides in `bot.py` and uses the Tweepy library to tweet text. The
 bot depends on the following files:
 
 1. `data.txt` - This file contains the raw text, which is used by the bot.
-2. `last_line.txt` - This file is the memory of the bot. This is used so that the bot can dump its state to disk between each run. The bot currently runs as a cron job. 
+2. `last_line.txt` - This file is the memory of the bot. This is used so that the bot can dump its state to disk between each run. The bot currently runs as a cron job. Eg.
+```
+12
+0
+```
+Where line 0 represents the row and line 1 represents the column in the data.txt file.
 
 3. `.env` - This file contains the secrets required by the bot, such as Twitter API keys.
 
