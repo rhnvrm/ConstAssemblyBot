@@ -30,7 +30,7 @@ def create_api():
 
 # -*- coding: utf-8 -*-
 alphabets = "([A-Za-z])"
-prefixes = "(Mr|St|Mrs|Ms|Dr)[.]"
+prefixes = "(Mr|St|Mrs|Ms|Dr|No)[.]"
 suffixes = "(Inc|Ltd|Jr|Sr|Co)"
 starters = "(Mr|Mrs|Ms|Dr|He\s|She\s|It\s|They\s|Their\s|Our\s|We\s|But\s|However\s|That\s|This\s|Wherever)"
 acronyms = "([A-Z][.][A-Z][.](?:[A-Z][.])?)"
@@ -51,6 +51,7 @@ def split_into_sentences(text):
         "\\1<prd>\\2<prd>\\3<prd>",
         text,
     )
+    text = re.sub(r'\.+', ".", text) # replace multiple dots with a single dot
     text = re.sub(alphabets + "[.]" + alphabets + "[.]", "\\1<prd>\\2<prd>", text)
     text = re.sub(" " + suffixes + "[.] " + starters, " \\1<stop> \\2", text)
     text = re.sub(" " + suffixes + "[.]", " \\1<prd>", text)
