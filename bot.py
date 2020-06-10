@@ -2,7 +2,6 @@ import os
 import tweepy
 import logging
 import re
-from textwrap import wrap
 
 # Config
 MAX_CHAR_FOR_TWEET = 240
