@@ -2,6 +2,7 @@ import os
 import tweepy
 import logging
 import re
+from textwrap import wrap
 
 # Config
 MAX_CHAR_FOR_TWEET = 240
@@ -131,10 +132,11 @@ else:
 # create tweet
 logging.info("sending tweet: ===\n" + pending_tweet + "\n===")
 
+split_tweets = wrap(pending_tweet, MAX_CHAR_FOR_TWEET)
 out_tweet = ""
 prev_status = None
 while True:
-    out_tweet = pending_tweet[:240]
+    out_tweet = split_tweets[0]
     try:
         if prev_status == None:
             prev_status = api.update_status(status=out_tweet)
@@ -149,8 +151,8 @@ while True:
         else:
             raise error
 
-    pending_tweet = pending_tweet[240:]
-    if len(pending_tweet) == 0:
+    split_tweets = split_tweets[1:]
+    if len(split_tweets) == 0:
         break
 
 of = open("last_line.txt", "w")
