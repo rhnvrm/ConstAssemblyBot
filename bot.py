@@ -75,86 +75,91 @@ def split_into_sentences(text):
     return sentences
 
 
-api = create_api()
+def run():
+    api = create_api()
 
-# read all lines
-f_data = open("data.txt")
-lines = f_data.readlines()
-f_data.close()
+    # read all lines
+    f_data = open("data.txt")
+    lines = f_data.readlines()
+    f_data.close()
 
-# read last line
-f = open("last_line.txt")
-last_line_data = f.readlines()
-f.close()
+    # read last line
+    f = open("last_line.txt")
+    last_line_data = f.readlines()
+    f.close()
 
-# get line to tweet
-line_to_tweet = int(last_line_data[0])
-line_char = int(last_line_data[1])
+    # get line to tweet
+    line_to_tweet = int(last_line_data[0])
+    line_char = int(last_line_data[1])
 
-pending_tweet = ""
+    pending_tweet = ""
 
-# check for ignorable lines
-while True:
-    line = lines[line_to_tweet]
-    if line == "\n":
+    # check for ignorable lines
+    while True:
+        line = lines[line_to_tweet]
+        if line == "\n":
+            line_to_tweet += 1
+        else:
+            break
+
+    # if it matches with 1.1.1 format, skip line, add name, save to file
+    if re.match("^\d*\.\d*\.\d*", line):
         line_to_tweet += 1
-    else:
-        break
+        pending_tweet = lines[line_to_tweet]
+        line_to_tweet += 1
+        of = open("last_line.txt", "w")
+        of.writelines([str(line_to_tweet), "\n", str(line_char)])
+        of.close()
 
-# if it matches with 1.1.1 format, skip line, add name, save to file
-if re.match("^\d*\.\d*\.\d*", line):
-    line_to_tweet += 1
-    pending_tweet = lines[line_to_tweet]
-    line_to_tweet += 1
+    # check if it is a sentence
+    sentences = split_into_sentences(lines[line_to_tweet][line_char:])
+
+    if len(sentences) > 0:
+        first_sentence = sentences[0]
+
+        if len(first_sentence) != len(lines[line_to_tweet]):
+            line_char = lines[line_to_tweet].find(first_sentence) + len(first_sentence)
+
+        pending_tweet += first_sentence
+
+        if len(sentences) == 1:
+            line_char = 0
+            line_to_tweet += 1
+    else:
+        pending_tweet += lines[line_to_tweet]
+        line_to_tweet += 1
+        line_char = 0
+
+    # create tweet
+    logging.info("sending tweet: ===\n" + pending_tweet + "\n===")
+
+    split_tweets = wrap(pending_tweet, MAX_CHAR_FOR_TWEET)
+    out_tweet = ""
+    prev_status = None
+    while True:
+        out_tweet = split_tweets[0]
+        try:
+            if prev_status == None:
+                prev_status = api.update_status(status=out_tweet)
+            else:
+                prev_status = api.update_status(
+                    status=out_tweet, in_reply_to_status_id=prev_status.id
+                )
+        except tweepy.TweepError as error:
+            if error.api_code == 187:
+                # Do something special
+                api.update_status(status=out_tweet + ".")
+            else:
+                raise error
+
+        split_tweets = split_tweets[1:]
+        if len(split_tweets) == 0:
+            break
+
     of = open("last_line.txt", "w")
     of.writelines([str(line_to_tweet), "\n", str(line_char)])
     of.close()
 
-# check if it is a sentence
-sentences = split_into_sentences(lines[line_to_tweet][line_char:])
 
-if len(sentences) > 0:
-    first_sentence = sentences[0]
-
-    if len(first_sentence) != len(lines[line_to_tweet]):
-        line_char = lines[line_to_tweet].find(first_sentence) + len(first_sentence)
-
-    pending_tweet += first_sentence
-
-    if len(sentences) == 1:
-        line_char = 0
-        line_to_tweet += 1
-else:
-    pending_tweet += lines[line_to_tweet]
-    line_to_tweet += 1
-    line_char = 0
-
-# create tweet
-logging.info("sending tweet: ===\n" + pending_tweet + "\n===")
-
-split_tweets = wrap(pending_tweet, MAX_CHAR_FOR_TWEET)
-out_tweet = ""
-prev_status = None
-while True:
-    out_tweet = split_tweets[0]
-    try:
-        if prev_status == None:
-            prev_status = api.update_status(status=out_tweet)
-        else:
-            prev_status = api.update_status(
-                status=out_tweet, in_reply_to_status_id=prev_status.id
-            )
-    except tweepy.TweepError as error:
-        if error.api_code == 187:
-            # Do something special
-            api.update_status(status=out_tweet + ".")
-        else:
-            raise error
-
-    split_tweets = split_tweets[1:]
-    if len(split_tweets) == 0:
-        break
-
-of = open("last_line.txt", "w")
-of.writelines([str(line_to_tweet), "\n", str(line_char)])
-of.close()
+if __name__ == '__main__':
+    run()
