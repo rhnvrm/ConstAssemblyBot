@@ -1,9 +1,13 @@
 import unittest
 from unittest.mock import patch
+import logging
 import bot
 
+logger = logging.getLogger('unittests')
+logger.setLevel(logging.DEBUG)
+
 # These are used to mock lastline.txt
-line_to_tweet = 8
+line_to_tweet = 285
 line_char = 0
 
 
@@ -18,7 +22,7 @@ def mock_open_sideeffect(file, mode='r', *args, **kwargs):
 
     """
 
-    print("opened " + str(file))
+    logger.info("opened " + str(file))
     if file == "data.txt":
         return open("data.txt")
     elif file == 'last_line.txt':
@@ -35,11 +39,20 @@ class TestBot(unittest.TestCase):
     Mock twitter API and file opening to test bot without affecting its state
 
     """
-    @patch('bot.tweepy')
+
+    @patch('bot.tweepy.API')
     @patch('bot.open', new=mock_open_sideeffect)
-    def test_run(self, mock_open):
+    def test_run(self, mocked_api):
         bot.run()
-        self.assertEqual(True, True)
+        # Call list has all status updates, this is only to verify what the bot tweets
+        # Always better to use direct assertion in tests!
+        call_list = mocked_api.return_value.update_status.call_args_list
+        for call in call_list:
+            args, kwargs = call
+            logger.debug(kwargs['status'])
+
+            # Sample assertion
+            self.assertIsInstance(kwargs['status'], str)
 
 
 if __name__ == '__main__':
