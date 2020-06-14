@@ -83,7 +83,31 @@ class TestBot(unittest.TestCase):
         # check the second status
         args, kwargs = call_list[1]
         logger.debug(kwargs['status'])
-        expected = ' a revolution in the country, that is outside the present plan, and I have nothing to say about it.'
+        expected = 'a revolution in the country, that is outside the present plan, and I have nothing to say about it.'
+        self.assertEqual(kwargs['status'], expected)
+
+
+    @patch('bot.tweepy.API')
+    @patch('bot.open', new=gen_mock_fopen(285, 0))
+    def test_multiline_split(self, mocked_api):
+        bot.run()
+
+        # Get the args list from update_status
+        call_list = mocked_api.return_value.update_status.call_args_list
+
+        # len should be 2
+        self.assertEqual(len(call_list), 2)
+
+        # check the first status
+        args, kwargs = call_list[0]
+        logger.debug(kwargs['status'])
+        expected = '(6)Where at any ballot any of three or more candidates obtain an equal number of votes and one of them has to be excluded from the election under rule (4) the determination as between the candidates whose votes are equal of the candidate'
+        self.assertEqual(kwargs['status'], expected)
+
+        # check the second status
+        args, kwargs = call_list[1]
+        logger.debug(kwargs['status'])
+        expected = 'who is to be excluded shall be by the drawing of lots\".'
         self.assertEqual(kwargs['status'], expected)
 
 

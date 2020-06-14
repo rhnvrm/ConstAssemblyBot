@@ -74,6 +74,22 @@ def split_into_sentences(text):
     return sentences
 
 
+def split_text(tweet_text):
+    # Split words at spaces, ignore newlines
+    words = tweet_text.split(" ")
+    tweet = words[0] # Assign First word
+    for word in words[1:]:
+        if len(tweet) + len(word) + 1 > MAX_CHAR_FOR_TWEET:
+            # current line + word + 1 space exceeds single tweet
+            # return current line
+            yield tweet.strip()
+            tweet = word # Start ext tweet
+        else:
+            # There's more room left, add next word!
+            tweet = tweet + ' ' + word
+    yield tweet.strip()
+
+
 def run():
     api = create_api()
 
@@ -132,10 +148,8 @@ def run():
     # create tweet
     logging.info("sending tweet: ===\n" + pending_tweet + "\n===")
 
-    out_tweet = ""
     prev_status = None
-    while True:
-        out_tweet = pending_tweet[:240]
+    for out_tweet in split_text(pending_tweet):
         try:
             if prev_status == None:
                 prev_status = api.update_status(status=out_tweet)
@@ -150,9 +164,6 @@ def run():
             else:
                 raise error
 
-        pending_tweet = pending_tweet[240:]
-        if len(pending_tweet) == 0:
-            break
 
     of = open("last_line.txt", "w")
     of.writelines([str(line_to_tweet), "\n", str(line_char)])
