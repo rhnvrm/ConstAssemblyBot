@@ -83,7 +83,7 @@ class TestBot(unittest.TestCase):
         # check the second status
         args, kwargs = call_list[1]
         logger.debug(kwargs['status'])
-        expected = ' a revolution in the country, that is outside the present plan, and I have nothing to say about it.'
+        expected = 'a revolution in the country, that is outside the present plan, and I have nothing to say about it.'
         self.assertEqual(kwargs['status'], expected)
 
 
