@@ -9,7 +9,8 @@ MAX_CHAR_FOR_TWEET = 240
 BOTNAME = "@ConstAssembly"
 
 logging.basicConfig(filename="bot.log", level=logging.DEBUG)
-splitter = SentenceSplitter(language='en')
+splitter = SentenceSplitter(language="en")
+
 
 def create_api():
     consumer_key = os.getenv("CONSUMER_KEY")
@@ -41,16 +42,16 @@ websites = "[.](com|net|org|io|gov)"
 def split_text(tweet_text):
     # Split words at spaces, ignore newlines
     words = tweet_text.split(" ")
-    tweet = words[0] # Assign First word
+    tweet = words[0]  # Assign First word
     for word in words[1:]:
         if len(tweet) + len(word) + 1 > MAX_CHAR_FOR_TWEET:
             # current line + word + 1 space exceeds single tweet
             # return current line
             yield tweet.strip()
-            tweet = word # Start ext tweet
+            tweet = word  # Start ext tweet
         else:
             # There's more room left, add next word!
-            tweet = tweet + ' ' + word
+            tweet = tweet + " " + word
     yield tweet.strip()
 
 
@@ -128,11 +129,10 @@ def run():
             else:
                 raise error
 
-
     of = open("last_line.txt", "w")
     of.writelines([str(line_to_tweet), "\n", str(line_char)])
     of.close()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     run()
