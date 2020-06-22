@@ -107,9 +107,24 @@ class TestBot(unittest.TestCase):
         # check the second status
         args, kwargs = call_list[1]
         logger.debug(kwargs['status'])
-        expected = 'who is to be excluded shall be by the drawing of lots\".'
+        expected = 'who is to be excluded shall be by the drawing of lots.\"'
         self.assertEqual(kwargs['status'], expected)
 
+    @patch('bot.tweepy.API')
+    @patch('bot.open', new=gen_mock_fopen(2513, 433))
+    def test_issue_15(self, mocked_api):
+        bot.run()
+        # Get the args list from update_status
+        call_list = mocked_api.return_value.update_status.call_args_list
+
+        # len should be 2
+        self.assertEqual(len(call_list), 1)
+
+        # check the first status
+        args, kwargs = call_list[0]
+        logger.debug(kwargs['status'])
+        expected = 'He said, "If guests are invited and some guests do not come, then how can you have the dinner party?"'
+        self.assertEqual(kwargs['status'], expected)
 
 if __name__ == '__main__':
     unittest.main()

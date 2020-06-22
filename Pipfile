@@ -9,6 +9,7 @@ black = "*"
 [packages]
 tweepy = "*"
 flask = "*"
+sentence-splitter = "*"
 
 [requires]
 python_version = "3.6"

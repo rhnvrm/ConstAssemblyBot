@@ -2,13 +2,14 @@ import os
 import tweepy
 import logging
 import re
+from sentence_splitter import SentenceSplitter
 
 # Config
 MAX_CHAR_FOR_TWEET = 240
 BOTNAME = "@ConstAssembly"
 
 logging.basicConfig(filename="bot.log", level=logging.DEBUG)
-
+splitter = SentenceSplitter(language='en')
 
 def create_api():
     consumer_key = os.getenv("CONSUMER_KEY")
@@ -35,43 +36,6 @@ suffixes = "(Inc|Ltd|Jr|Sr|Co)"
 starters = "(Mr|Mrs|Ms|Dr|He\s|She\s|It\s|They\s|Their\s|Our\s|We\s|But\s|However\s|That\s|This\s|Wherever)"
 acronyms = "([A-Z][.][A-Z][.](?:[A-Z][.])?)"
 websites = "[.](com|net|org|io|gov)"
-
-
-def split_into_sentences(text):
-    text = " " + text + "  "
-    text = text.replace("\n", " ")
-    text = re.sub(prefixes, "\\1<prd>", text)
-    text = re.sub(websites, "<prd>\\1", text)
-    if "Ph.D" in text:
-        text = text.replace("Ph.D.", "Ph<prd>D<prd>")
-    text = re.sub("\s" + alphabets + "[.] ", " \\1<prd> ", text)
-    text = re.sub(acronyms + " " + starters, "\\1<stop> \\2", text)
-    text = re.sub(
-        alphabets + "[.]" + alphabets + "[.]" + alphabets + "[.]",
-        "\\1<prd>\\2<prd>\\3<prd>",
-        text,
-    )
-    text = re.sub(r'\.+', ".", text) # replace multiple dots with a single dot
-    text = re.sub(alphabets + "[.]" + alphabets + "[.]", "\\1<prd>\\2<prd>", text)
-    text = re.sub(" " + suffixes + "[.] " + starters, " \\1<stop> \\2", text)
-    text = re.sub(" " + suffixes + "[.]", " \\1<prd>", text)
-    text = re.sub(" " + alphabets + "[.]", " \\1<prd>", text)
-    if "”" in text:
-        text = text.replace(".”", "”.")
-    if '"' in text:
-        text = text.replace('."', '".')
-    if "!" in text:
-        text = text.replace('!"', '"!')
-    if "?" in text:
-        text = text.replace('?"', '"?')
-    text = text.replace(".", ".<stop>")
-    text = text.replace("?", "?<stop>")
-    text = text.replace("!", "!<stop>")
-    text = text.replace("<prd>", ".")
-    sentences = text.split("<stop>")
-    sentences = sentences[:-1]
-    sentences = [s.strip() for s in sentences]
-    return sentences
 
 
 def split_text(tweet_text):
@@ -127,7 +91,7 @@ def run():
         of.close()
 
     # check if it is a sentence
-    sentences = split_into_sentences(lines[line_to_tweet][line_char:])
+    sentences = splitter.split(text=lines[line_to_tweet][line_char:])
 
     if len(sentences) > 0:
         first_sentence = sentences[0]
