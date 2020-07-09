@@ -79,6 +79,8 @@ def run():
         line = lines[line_to_tweet]
         if line == "\n":
             line_to_tweet += 1
+        elif line == "":
+            line_to_tweet += 1
         else:
             break
 
