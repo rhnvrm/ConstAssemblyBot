@@ -30,7 +30,7 @@ def gen_mock_fopen(line_to_tweet, line_char):
 
         logger.info("opened " + str(file))
         if file == "data.txt":
-            return open("data.txt")
+            return open("data-1.txt")
         elif file == "last_line.txt":
             content = str(line_to_tweet) + "\n" + str(line_char)
         else:
