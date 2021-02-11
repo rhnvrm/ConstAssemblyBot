@@ -72,6 +72,29 @@ def run():
     line_to_tweet = int(last_line_data[0])
     line_char = int(last_line_data[1])
 
+    # check if bot is about to run out of sentences
+    # and alert the admin
+    if line_to_tweet / len(lines) > 0.90:
+        if not os.path.exists("alert_sent.txt"):
+            import requests
+
+            data = {
+                'from': 'ConstAssemblyBot Alerts <'+os.getenv("ADMIN_EMAIL")+'>',
+                'to': os.getenv("ADMIN_EMAIL"),
+                'subject': 'ConstAssemblyBot alert',
+                'text': 'The data in the bot is nearly over.',
+            }
+
+            response = requests.post('https://api.mailgun.net/v3/'+os.getenv("EMAIL_DOMAIN")+'/messages',
+                                     data=data,
+                                     auth=('api', os.getenv('EMAIL_API_KEY')))
+            if response.status_code == 200:
+                # create empty sentinel file
+                with open('alert_sent.txt', 'w') as fp:
+                    pass
+            else:
+                print(response.text)
+    
     pending_tweet = ""
 
     # check for ignorable lines
