@@ -1745,7 +1745,7 @@ It is not lost. It is not taken up. You can send it to the Steering Committee an
 
 4.23.141
 Sri Prakasa
-May I respectfully enquire what will be the position of the new members who have been elected and who have taken their seats?  In the light of Rules 4 and 5, will their presence be allowed?
+May I respectfully enquire what will be the position of the new members who have been elected and who have taken their seats? In the light of Rules 4 and 5, will their presence be allowed?
 
 
 4.23.142
@@ -2962,7 +2962,7 @@ Sir, I beg to move:
 
 "That the following be added as sub-clause (2) of Clause 4 and the existing Clauses be renumbered as Clause 4(1) :
 
-'(2)  No person holding any office or position of emolument in the regular services of the Provincial Government or the Union Government or any local authority subordinate to the same shall be eligible for election as Governor'."
+'(2) No person holding any office or position of emolument in the regular services of the Provincial Government or the Union Government or any local authority subordinate to the same shall be eligible for election as Governor'."
 
 
 4.24.113
@@ -2988,7 +2988,7 @@ The question is:
 
 "That the following be added as sub-clause (2) of Clause 4 and the existing Clause 4 be renumbered as Clause4(1) :
 
-"(2)  No person holding any office, position of emolument in the regular services of the Provincial Government or the Union Government or any local authority subordinate to the same shall be eligible for election as Governor'."
+"(2) No person holding any office, position of emolument in the regular services of the Provincial Government or the Union Government or any local authority subordinate to the same shall be eligible for election as Governor'."
 
 The amendment was adopted.
 
@@ -3039,13 +3039,13 @@ CLAUSE 6
 The Honourable Sardar Vallabhbhai Patel
 Sir, I move:
 
-"6.(1)  The Governor shall not be a member of the Provincial Legislature and if a member of the Provincial Legislature be elected Governor, he shall be deemed to have vacated his seat in that Legislature.
+"6.(1) The Governor shall not be a member of the Provincial Legislature and if a member of the Provincial Legislature be elected Governor, he shall be deemed to have vacated his seat in that Legislature.
 
-(2)  The Governor shall not hold any other office or position of emolument.
+(2) The Governor shall not hold any other office or position of emolument.
 
-(3)  The Governor shall have an official residence and shall receive such emoluments and allowances as may be determined by Act of the Provincial Legislature and until then such as are prescribed in Schedule............
+(3) The Governor shall have an official residence and shall receive such emoluments and allowances as may be determined by Act of the Provincial Legislature and until then such as are prescribed in Schedule............
 
-(4)  The emoluments and allowances of the Governor shall not be diminished during his term of office."
+(4) The emoluments and allowances of the Governor shall not be diminished during his term of office."
 
 
 4.24.125
@@ -3853,7 +3853,7 @@ I rise to a point of order. I want to know whether the Honourable the President 
 
 4.25.77
 President
-I do not think it is necessary for me to control the speaker. I think he is speaking within bounds.  (Laughter.)
+I do not think it is necessary for me to control the speaker. I think he is speaking within bounds. (Laughter.)
 
 
 4.25.78
@@ -4019,9 +4019,9 @@ CLAUSE 13
 Vallabhbhai J. Patel
 I move Clause 13.
 
-"13. (1)  A Minister who for any period of six consecutive months is not a member of the provincial legislature shall at the expiration of that period cease to be a Minister.
+"13. (1) A Minister who for any period of six consecutive months is not a member of the provincial legislature shall at the expiration of that period cease to be a Minister.
 
-(2)  The salaries of ministers shall be such as the Provincial Legislature may from time to time by Act determine, and, until the provincial legislature so determine, shall be determined by the Governor:
+(2) The salaries of ministers shall be such as the Provincial Legislature may from time to time by Act determine, and, until the provincial legislature so determine, shall be determined by the Governor:
 
 Provided that the salary of a Minister shall not be varied during his term of office."
 
@@ -4254,11 +4254,11 @@ Clause 15 shall stand over.
 Vallabhbhai J. Patel
 Sir I move Clause 16.
 
-"(1)  The Governor shall appoint a person, being one qualified to be a judge of a High Court, to be Advocate-General for the Province to give advice to the Provincial Government upon legal matters.
+"(1) The Governor shall appoint a person, being one qualified to be a judge of a High Court, to be Advocate-General for the Province to give advice to the Provincial Government upon legal matters.
 
-(2)  The Advocate-General shall retire from office upon the resignation of the Prime Minister, but may continue to carry on his duties until a new Advocate General shall have been appointed.
+(2) The Advocate-General shall retire from office upon the resignation of the Prime Minister, but may continue to carry on his duties until a new Advocate General shall have been appointed.
 
-(3)  The Advocate-General shall receive such remuneration as the Governor nay determine"
+(3) The Advocate-General shall receive such remuneration as the Governor nay determine"
 
 (Messrs. P. Kakkan, M. Ananthasayanam Ayyangar, H. V. Pateskar K.Santhanam and Gupta Nath Singh did not move their amendments.)
 
@@ -4636,7 +4636,7 @@ Mr. President, Sir, I beg to move my amendment which stands as follows:
 
 "That the following proviso be added to sub-clause (2) of Clause 19:
 
-'Provided that in giving representation to any territorial area or areas inhabited by hill tribes, the   Provincial Government may determine a lower basis of population than one lakh and the total representation of the Province shall be increased accordingly'."
+'Provided that in giving representation to any territorial area or areas inhabited by hill tribes, the Provincial Government may determine a lower basis of population than one lakh and the total representation of the Province shall be increased accordingly'."
 
 
 4.26.55
@@ -5184,27 +5184,27 @@ Sir, I move:
 
 "The Provincial Legislature may from time to time make provisions with respect to all or any of the following matters, that is to say,--
 
-(a)  the delimitation of territorial constituencies;
+(a) the delimitation of territorial constituencies;
 
-(b)  the qualifications for the franchise and the preparation of electoral rolls;
+(b) the qualifications for the franchise and the preparation of electoral rolls;
 
-(c)  the qualifications for being elected as a member of either House;
+(c) the qualifications for being elected as a member of either House;
 
-(d)  the filling of casual vacancies in either House;
+(d) the filling of casual vacancies in either House;
 
-(e)  the conduct of elections under this Constitution and the methods of voting thereat;
+(e) the conduct of elections under this Constitution and the methods of voting thereat;
 
-(f)  the expenses of candidates at such elections:
+(f) the expenses of candidates at such elections:
 
-(g)  corrupt practices and other offences at or in connection with such elections;
+(g) corrupt practices and other offences at or in connection with such elections;
 
-(h)  the decision of doubts and disputes arising out of or in connection with such elections;
+(h) the decision of doubts and disputes arising out of or in connection with such elections;
 
-(i)  matters ancillary to any such matter as aforesaid:
+(i) matters ancillary to any such matter as aforesaid:
 
 Provided:
 
-(1)  that no member of the Lower House shall be less than 25 years of age and no member of the Upper House shall be less than 35 years of age;
+(1) that no member of the Lower House shall be less than 25 years of age and no member of the Upper House shall be less than 35 years of age;
 
 (2) that the superintendence, direction, and control of elections, including the appointment of election tribunals shall be vested in the Governor acting in his discretion."
 
@@ -5267,7 +5267,7 @@ Seth Govind Das
 Sir, there are two amendments in my name. One is number 4 and the other No. 5 in the Supplementary List No.3. I am not moving No. 4. I want to move No. 5 which runs:
 
 "That after proviso (2) in Clause 22 the following new proviso be added:
-'(3) that all provisions under Clause 22(a)  to (i) will be made on the principles of and in conformity with the instructions laid down in the Schedule annexed hereto so as to maintain uniformity in these matters throughout the Indian Union'."
+'(3) that all provisions under Clause 22(a) to (i) will be made on the principles of and in conformity with the instructions laid down in the Schedule annexed hereto so as to maintain uniformity in these matters throughout the Indian Union'."
 
 
 4.26.157
@@ -5984,7 +5984,7 @@ The Prerogative Writs are largely the creature of common law in England but atte
 
 
 4.27.104
-As regards Clause (b), there is a restriction imposed by the Government of India Act as regards jurisdiction in revenue matters. This is only done as a matter of history. This amendment recognizes the principle that even revenue matters are subject to law. As regards Clause (c)--General  superintendence, the High Courts will have superintendence over all Subordinate Courts and this clause does not require any elaboration.
+As regards Clause (b), there is a restriction imposed by the Government of India Act as regards jurisdiction in revenue matters. This is only done as a matter of history. This amendment recognizes the principle that even revenue matters are subject to law. As regards Clause (c)--General superintendence, the High Courts will have superintendence over all Subordinate Courts and this clause does not require any elaboration.
 
 
 4.27.105

@@ -137,7 +137,7 @@ President
 Jawaharlal Nehru
  Sir, I beg to move:
 
-     "The Constituent Assembly, having taken the report of its States Committee into consideration, resolves that it be recorded. The Assembly welcomes the States representatives who have already been chosen and expresses the hope that other States who have not chosen their representatives will take immediate steps to do so in accordance with the agreed procedure."
+ "The Constituent Assembly, having taken the report of its States Committee into consideration, resolves that it be recorded. The Assembly welcomes the States representatives who have already been chosen and expresses the hope that other States who have not chosen their representatives will take immediate steps to do so in accordance with the agreed procedure."
 
 3.17.36
 Jawaharlal Nehru
@@ -264,7 +264,7 @@ Sub-rule (1) of Rule 40 lays down: "A steering committee shall be set up for the
 
 3.17.64
 G. Durgabai
-Sir, I may be permitted to state in this connection that in accordance with these Rulers, eleven members were initially elected top this Committee on 20th January and the Committee has been functioning with these members.  According to sub-rule (2), eight additional members are to be elected from time to time out of whom four are reserved for election from among the representatives of Indian States.  It is considered desirable at present that only two out of four will be elected now and that the election of the two other members shall be postponed to a future date.  We would have been happy had all the four members been elected on this occasion.  But we thought it desirable to elect only two members at present and postpone the election of two other members to a subsequent date.  When we will be fortunate enough to have a much larger representation of Indian States on this Assembly and all present her.  We fondly hoped that some of the leading States like Hyderabad, Travancore, Mysore and some other States would have made up their minds to join us here in our work and co-operate with us.  But I am sadly disappointed to find that they are not able to come and see eye to eye with us and that they are still pursuing a policy of "wait and see". I hope that it will not be before long, that they will follow the noble example set up by States like Baroda, Bikaner, Rewa, Gwalior, Cochin, Udaipur, Jodhpur ans some other States, whose representatives we have here in our midst and send their representatives also to help us in this great task of forging a constitution for this great country.  I extend a hearty welcome to those representatives who will be elected to this Committee, to function on this Committee to help us with their advice and guidance in our work. With these words, I commend this motion for the acceptance of this House.
+Sir, I may be permitted to state in this connection that in accordance with these Rulers, eleven members were initially elected top this Committee on 20th January and the Committee has been functioning with these members. According to sub-rule (2), eight additional members are to be elected from time to time out of whom four are reserved for election from among the representatives of Indian States. It is considered desirable at present that only two out of four will be elected now and that the election of the two other members shall be postponed to a future date. We would have been happy had all the four members been elected on this occasion. But we thought it desirable to elect only two members at present and postpone the election of two other members to a subsequent date. When we will be fortunate enough to have a much larger representation of Indian States on this Assembly and all present her. We fondly hoped that some of the leading States like Hyderabad, Travancore, Mysore and some other States would have made up their minds to join us here in our work and co-operate with us. But I am sadly disappointed to find that they are not able to come and see eye to eye with us and that they are still pursuing a policy of "wait and see". I hope that it will not be before long, that they will follow the noble example set up by States like Baroda, Bikaner, Rewa, Gwalior, Cochin, Udaipur, Jodhpur ans some other States, whose representatives we have here in our midst and send their representatives also to help us in this great task of forging a constitution for this great country. I extend a hearty welcome to those representatives who will be elected to this Committee, to function on this Committee to help us with their advice and guidance in our work. With these words, I commend this motion for the acceptance of this House.
 
 3.17.65
 President
@@ -1343,7 +1343,7 @@ H. V. Kamath
 
 3.18.223
 Rohini Kumar Chaudhury
-Sir, I beg to move: "That in sub-clause (2) of clause 4, after the word "sex', the following words be inserted:  'or of dress worn by any nationality'."
+Sir, I beg to move: "That in sub-clause (2) of clause 4, after the word "sex', the following words be inserted: 'or of dress worn by any nationality'."
 
 3.18.224
 Rohini Kumar Chaudhury
@@ -1383,7 +1383,7 @@ Now, the amendment which I have suggested would negative this provision, for I w
 
 3.18.233
 R. R. Diwakar
-I beg to move: "That in sub-clause (2) (b) of clause 4 for the word 'and' a comma be substituted, and after the word 'resort', the following words be inserted:--     and schools, colleges and other institutions."
+I beg to move: "That in sub-clause (2) (b) of clause 4 for the word 'and' a comma be substituted, and after the word 'resort', the following words be inserted:-- and schools, colleges and other institutions."
 
 3.18.234
 R. R. Diwakar
@@ -1815,13 +1815,13 @@ Mr. Chaudhri Suraj Mal has raised a point in which he is afraid that persons hav
 President
 Now I take Mr. Munshi's amendment. The clause as amended by Mr. Munshi will read like this:
 
-  (a) There shall be equality of opportunity for all citizens in matter of public employment.
+ (a) There shall be equality of opportunity for all citizens in matter of public employment.
 
-  (b) No citizen shall on grounds only of religion, race, caste, sex, descent, place of birth or any of them be ineligible for public office.
+ (b) No citizen shall on grounds only of religion, race, caste, sex, descent, place of birth or any of them be ineligible for public office.
 
-  (c) Nothing herein contained shall prevent the State from making provision for reservations in favour of classes who, in the opinion of the State, are not adequately represented in the public services.
+ (c) Nothing herein contained shall prevent the State from making provision for reservations in favour of classes who, in the opinion of the State, are not adequately represented in the public services.
 
-  (d) Nothing herein contained shall prevent a law being made prescribing that the incumbent of an office to manage, administer or superintend the affairs of a religious or denominational institution or the member of the Governing Body thereof shall be a member of that particular religion or denomination.
+ (d) Nothing herein contained shall prevent a law being made prescribing that the incumbent of an office to manage, administer or superintend the affairs of a religious or denominational institution or the member of the Governing Body thereof shall be a member of that particular religion or denomination.
 
 3.19.44
 President
@@ -1845,14 +1845,14 @@ Vallabhbhai J. Patel
 Now Sir, I beg to move clause 7. As it stands, it runs thus:-
 
 
-     "No heritable title shall be conferred by the Union."
+ "No heritable title shall be conferred by the Union."
 
 3.19.47
 Vallabhbhai J. Patel
 We have discussed this at length in the Committee and there was difference of opinion in the various committees in which this question was discussed and adopted. It was a very controversial matter. The matter was settled after a prolonged debate and we came to this formula. But the word 'heritable' became a matter of controversy and it was agreed after considerable discussion that that word should also be dropped, and there would be a formal amendment for that purpose. So what will remain will be-
 
 
-     "No title shall be conferred by the Union."
+ "No title shall be conferred by the Union."
 
 3.19.48
 Vallabhbhai J. Patel
@@ -1874,18 +1874,18 @@ M.R. Masani
 Mr. President, the amendment of which I have given notice is an amendment to the amendment given notice of by Mr. Santhanam. It reads as follows:
 
 
-     "No title other than one denoting an office or profession shall be conferred by the Union.
+ "No title other than one denoting an office or profession shall be conferred by the Union.
 
-      No citizen of the Union shall accept any title from any foreign State.
+ No citizen of the Union shall accept any title from any foreign State.
 
-     No person holding any office of profit or trust under the State shall, without the consent of the   Union Government, accept any present, emoluments, or office of any kind from any foreign State."
+ No person holding any office of profit or trust under the State shall, without the consent of the Union Government, accept any present, emoluments, or office of any kind from any foreign State."
 
 3.19.52
 M.R. Masani
 In sentence, 1, paragraph 1, the words, "other than, one denoting an office or profession" may be deleted, so that the clause would read "No title shall be conferred by the Union." In paragraph 3 "or title" should be added in the last line of the clause so as to read:
 
 
-     "No person holding any office of profit or trust under the State shall, without the consent of the Union Government, accept any present, emoluments, office or title of any kind from any foreign State."
+ "No person holding any office of profit or trust under the State shall, without the consent of the Union Government, accept any present, emoluments, office or title of any kind from any foreign State."
 
 3.19.53
 M.R. Masani
@@ -1897,11 +1897,11 @@ President
 Mr. Masani has given notice of an amendment and he just wants the permission of the House to drop a few words in the amendment as he has suggested, so that his amendment would read like this:
 
 
-    "No title shall be conferred by the Union.
+ "No title shall be conferred by the Union.
 
-     No citizen of the Union shall accept any title from any foreign State.
+ No citizen of the Union shall accept any title from any foreign State.
 
-   No person holding any office of profit or trust under the State shall, without the consent of the Union government accept any present, emoluments, office or title of any kind from any foreign State."
+ No person holding any office of profit or trust under the State shall, without the consent of the Union government accept any present, emoluments, office or title of any kind from any foreign State."
 
 3.19.55
 M.R. Masani
@@ -2045,11 +2045,11 @@ President
 I will read the amendment first:
 
 
-   "No title shall be conferred by the Union.
+ "No title shall be conferred by the Union.
 
-     No citizen of the Union shall accept any title from any foreign State.
+ No citizen of the Union shall accept any title from any foreign State.
 
-    No person holding any office of profit of trust under the State shall, without the consent of the Union Government, accept any present, emoluments, office or title of any kind from any foreign State."
+ No person holding any office of profit of trust under the State shall, without the consent of the Union Government, accept any present, emoluments, office or title of any kind from any foreign State."
 
 3.19.82
 President
@@ -2060,7 +2060,7 @@ The amendment was adopted.
 
 3.19.83
 President
-This becomes now the amended clause. I put the amended clause to  vote.
+This becomes now the amended clause. I put the amended clause to vote.
 
 
 
@@ -2138,7 +2138,7 @@ I do not move the amendment, Sir.
 
 3.19.96
 Rai Bahadur Syamanandan Sahaya
-Sir, before we proceed with the amendments I should like to make a submission. Actually we are considering the Report at present and the proposition moved was that the Report be taken into consideration. The Hon'ble Mover, in moving Clause 8, suggested dropping all the three provisos and, in fact, did not move their adoption at all. The proper thing to do,  it seems to me, is to move for their omission by way of an amendment and not simply to say that they are not being moved. This forms part of our proceedings. If we simply omit the provisos in the manner suggested by the Hon'ble Mover, one may not know how and why they were omitted. I simply want to draw the attention of the mover to this position.
+Sir, before we proceed with the amendments I should like to make a submission. Actually we are considering the Report at present and the proposition moved was that the Report be taken into consideration. The Hon'ble Mover, in moving Clause 8, suggested dropping all the three provisos and, in fact, did not move their adoption at all. The proper thing to do, it seems to me, is to move for their omission by way of an amendment and not simply to say that they are not being moved. This forms part of our proceedings. If we simply omit the provisos in the manner suggested by the Hon'ble Mover, one may not know how and why they were omitted. I simply want to draw the attention of the mover to this position.
 
 
 3.19.97
@@ -2158,7 +2158,7 @@ Sir, my amendment to the proviso 8 (a) to delete the word 'seditious' has become
 
 3.19.100
 Mr. Somanth Lahiri
-My next amendment is to substitute for the whole of clause 8 (b), the sentence   "The right of the citizen to assemble". Here also, except two or three words, the rest have already been proposed to be deleted.
+My next amendment is to substitute for the whole of clause 8 (b), the sentence "The right of the citizen to assemble". Here also, except two or three words, the rest have already been proposed to be deleted.
 
 
 3.19.101
@@ -2171,7 +2171,7 @@ My last amendment runs thus:
 
 10. (a) Liberty of the press shall be guaranteed subject to such restrictions as may be imposed by law in the interests of public order or morality.
 
-     (b) The Press shall not be subject to censorship and shall not be subsidised. No security shall be demanded for the keeping of a Press or the publication of any book or other printed matter.
+ (b) The Press shall not be subject to censorship and shall not be subsidised. No security shall be demanded for the keeping of a Press or the publication of any book or other printed matter.
 
 11. The privacy of correspondence shall be inviolable and may be infringed only in cases provided by law.
 
@@ -2310,7 +2310,7 @@ Sir, I am rather in a fix about my amendment. There is already an amendment befo
 Rev. J. J. M. Nichols-Roy
 Mr. President, Sir, the amendment which stands in my name has two parts, namely, - (1) that in the first line of the proviso to sub-clause parts, namely,-- (1) that in the first line of the proviso to sub-clause (e) of clause 8, the word 'reasonable' be deleted; and (2) that after the word 'tribes' the words 'and tribal areas' be added. I want to move only the first part. I do not want to move the second part. So the proviso as I propose will read thus:
 
-     "Provision may be made by law to impose such restrictions as may be necessary in the public interest including the protection of minority groups and tribes."
+ "Provision may be made by law to impose such restrictions as may be necessary in the public interest including the protection of minority groups and tribes."
 
 3.19.127
 Rev. J. J. M. Nichols-Roy
@@ -2363,7 +2363,7 @@ Mr. President, Sir, now that the other provisos to Clause 8 are gone, the only p
 3.19.136
 K.M. Munshi
 With these changes, the sub-clause will run as follows:--
-     "The right of every citizen to reside and settle in any part of the Union, to acquire, hold or dispose of property and to exercise or carry on any occupation, trade, business or profession."
+ "The right of every citizen to reside and settle in any part of the Union, to acquire, hold or dispose of property and to exercise or carry on any occupation, trade, business or profession."
 
 3.19.137
 K.M. Munshi
@@ -2417,7 +2417,7 @@ It seems to me that there is also confusion in regard to another matter. Honoura
 
 3.19.147
 Jawaharlal Nehru
-Now Mr. Jaipal Singh moved an amendment which I gather he did not press. As far as I am concerned, I entirely agree with him, but I do not see what it has to do with fundamental right. I completely agree that the tribal areas and the tribal people should be protected in every possible way (Hear, hear), and the existing laws--I do not know what those laws are, but certainly the existing laws should continue and may be, should be, added to when the time comes. But thinking of this in terms of a fundamental right would be, I submit, entirely wrong. Mr. Nichols-Roy called upon me not once but several times to speak here and make clear my position apparently in some other capacity than I possess here. He referred to the Interim Government and to the External Affairs Department. Well, Sir, I need not remind the House that I am not here as a Member of the Interim Government or as a Member in charge of the External Affairs Department. I am here as representing the people of the United Provinces. But forgetting my representative capacity, I should like to say-- and I am quite sure the House will agree with me, and indeed, the House, in accepting the first Objectives Resolution, made this point clear even then,--that every care should be taken in protecting the tribal areas, those unfortunate brethren of ours who are backward through no fault of theirs, through the fault of social customs, and may be, ourselves or our forefathers or others; that it is our intention and it is our  fixed desire to help them as much as possible; in as efficient a way as possible to protect them from possibly their rapacious neighbours occasionally and to make them advance. I can assure Mr. Nichols-Roy that in so far as I have any say in this matter in any Government or otherwise, I shall try to do that. I think, however, that it is not a question of my desire or someone else's desire. I think it is bound to be the policy of any Government of India because that is likely to be an accepted principle of Indian politics today and I do not think any Government even if it was not keen on this issue would very well go against it. So I submit, Sir, that people interested in tribal areas should rest assured completely because, if any person ceases to be vigilant in the defence of any right or freedom, that freedom or right is likely to be swept away. So I want them to be vigilant, but nevertheless, I want them to feel sure that they have the sympathy of the whole of India with them. (Cheers).
+Now Mr. Jaipal Singh moved an amendment which I gather he did not press. As far as I am concerned, I entirely agree with him, but I do not see what it has to do with fundamental right. I completely agree that the tribal areas and the tribal people should be protected in every possible way (Hear, hear), and the existing laws--I do not know what those laws are, but certainly the existing laws should continue and may be, should be, added to when the time comes. But thinking of this in terms of a fundamental right would be, I submit, entirely wrong. Mr. Nichols-Roy called upon me not once but several times to speak here and make clear my position apparently in some other capacity than I possess here. He referred to the Interim Government and to the External Affairs Department. Well, Sir, I need not remind the House that I am not here as a Member of the Interim Government or as a Member in charge of the External Affairs Department. I am here as representing the people of the United Provinces. But forgetting my representative capacity, I should like to say-- and I am quite sure the House will agree with me, and indeed, the House, in accepting the first Objectives Resolution, made this point clear even then,--that every care should be taken in protecting the tribal areas, those unfortunate brethren of ours who are backward through no fault of theirs, through the fault of social customs, and may be, ourselves or our forefathers or others; that it is our intention and it is our fixed desire to help them as much as possible; in as efficient a way as possible to protect them from possibly their rapacious neighbours occasionally and to make them advance. I can assure Mr. Nichols-Roy that in so far as I have any say in this matter in any Government or otherwise, I shall try to do that. I think, however, that it is not a question of my desire or someone else's desire. I think it is bound to be the policy of any Government of India because that is likely to be an accepted principle of Indian politics today and I do not think any Government even if it was not keen on this issue would very well go against it. So I submit, Sir, that people interested in tribal areas should rest assured completely because, if any person ceases to be vigilant in the defence of any right or freedom, that freedom or right is likely to be swept away. So I want them to be vigilant, but nevertheless, I want them to feel sure that they have the sympathy of the whole of India with them. (Cheers).
 
 
 3.19.148
@@ -2425,7 +2425,7 @@ K.M. Munshi
 May I in the interest of a little more accuracy suggest a change of wording? I find that there is a defective word used in the first Preamble:
 
 
-     "There shall be liberty for the exercise of the following rights subject to public order and morality or to the existence of grave emergency."
+ "There shall be liberty for the exercise of the following rights subject to public order and morality or to the existence of grave emergency."
 
 3.19.149
 K.M. Munshi
@@ -2464,7 +2464,7 @@ President
 I shall now put Mr. Lahiri's amendment to the House. The amendment seeks to substitute the words "defence of the Union" for the words "security of the Union" occurring in the first para of clause 8. As amended, it will read:
 
 
-     "There shall be liberty for the exercise of the following rights subject to public order and morality or to the existence of grave emergency declared to be such by the Government of the Union or the Unit concerned whereby the defence of the Union or the Unit, as the case may be, is threatened.”
+ "There shall be liberty for the exercise of the following rights subject to public order and morality or to the existence of grave emergency declared to be such by the Government of the Union or the Unit concerned whereby the defence of the Union or the Unit, as the case may be, is threatened.”
 
 The amendment was negatived.
 
@@ -2473,7 +2473,7 @@ President
 Then I come to amendment to sub-clause (e). As amended it will read:
 
 
-     "The right of every citizen to reside and settle in any part of the Union, to acquire. hold or dispose of property add to exercise or carry on any occupation. trade, business or profession."
+ "The right of every citizen to reside and settle in any part of the Union, to acquire. hold or dispose of property add to exercise or carry on any occupation. trade, business or profession."
 
 The amendment was adopted.
 
@@ -2530,7 +2530,7 @@ K.M. Munshi
 Mr. President, Sir, I beg to move the following motion:
 
 
-     "Resolved that the Constituent Assembly do proceed to take into consideration the report of the committee appointed by the resolution of the Assembly of the 25th January, 1947, to recommend the order of the further business of the Assembly."
+ "Resolved that the Constituent Assembly do proceed to take into consideration the report of the committee appointed by the resolution of the Assembly of the 25th January, 1947, to recommend the order of the further business of the Assembly."
 
 3.19.166
 K.M. Munshi
@@ -2650,12 +2650,12 @@ You may take it up now.
 
 3.19.189
 K.M. Munshi
-     "This Assembly resolves that in accordance with the recommendations contained in the Report of the Order of Business Committee the following Committees be nominated by the President with instructions to report before the next Session of the Assembly:
+ "This Assembly resolves that in accordance with the recommendations contained in the Report of the Order of Business Committee the following Committees be nominated by the President with instructions to report before the next Session of the Assembly:
 
 
-     1. A Committee consisting of not more than fifteen members to report on the main principles of the Union constitution, and
+ 1. A Committee consisting of not more than fifteen members to report on the main principles of the Union constitution, and
 
-     2. A Committee consisting of not more than twenty-five members to report on the main principles of a model provincial constitution."
+ 2. A Committee consisting of not more than twenty-five members to report on the main principles of a model provincial constitution."
 
 3.19.190
 K.M. Munshi
@@ -2667,11 +2667,11 @@ President
 The motion before the House is:
 
 
-     "This Assembly resolves that in accordance with the recommendation contained in the Report of the Order of Business Committee the following Committees be nominated by the President with instruction to report before the next session of the Assembly:
+ "This Assembly resolves that in accordance with the recommendation contained in the Report of the Order of Business Committee the following Committees be nominated by the President with instruction to report before the next session of the Assembly:
 
-     1. A. Committee consisting of not more than fifteen members to report on the main principles of the Union constitution, and
+ 1. A. Committee consisting of not more than fifteen members to report on the main principles of the Union constitution, and
 
-     2. A Committee consisting of not more than twenty-five members to report on the main principles of a model provincial constitution."
+ 2. A Committee consisting of not more than twenty-five members to report on the main principles of a model provincial constitution."
 
 3.19.192
 C. M. Poonacha
@@ -3810,7 +3810,7 @@ I have got a list of a number of names of members who wish to speak on this amen
 
 3.20.197
 Algu Rai Shastri
-Mr. President I stand here to support the amendment moved by Mr.Munshi. I believe that by accepting the amendment we shall be doing justice to those minors who have perforce to enter the fold of the religion which their parents embrace out of their greed. This practice is like the one prevailing in the transactions of transfer of land and which is that 'trees go with the land'. It is on some such basis that the minor children who do not understand what change of religion or coercion or religious practices mean, have to leave their old faith along with their parents. This evil practice has a very bad effect, on the strength of our population. It is proper for us that we, who are framing the charts of Fundamental Rights, should safeguard their interests and save them from such automatic conversion. The dynamic conditions of our society make it more important than ever that we should incorporate such a provision in our Constitution as will prevent such practices. Such minors on attaining majority often regret that they were made to change their religion, improperly. Where ever the Europeans or the white races of Europe, who rule practically over the whole world, have gone, they have, as Missionaries. A study of the 'Prosperous India' by Digby shows that 'cross was followed by the sword'. The missionary was followed by the batons, the swords and the guns, It was in this way that they employed coercion for spreading their religions and for extending their Empire. At the same time, they put economic and political pressure on the indigenous tribes and consolidated the foundations of their dominion. We want such an amendment in this clause of Fundamental Rights that a person who wants to change his religion should be able to do so only after he is convinced through cool deliberation that the new religion is more satisfactory to him than the old one. For example it is only when I am convinced that Sikhism is preferable to Hinduism, that I should be able to change my religion.  This right I believe we have. But no one should change religion out of greed and temptation. When the followers of one religion employ, sword and guns to attack a family consisting of a few members, the latter have no option but to accept the religion of the aggressors in order to save their lives. Such a conversion should be considered void and ineffective because it has been brought about through coercion and undue influence. In view of such conditions which exist today, conversion brought about through temptation and allurement is, in fact, not a conversion in the real sense of the term. I have a personal experience extending over a period of 24 years as to how the elders of the family are induced through prospects of financial gain to change their religion and also with them the children are taken over to the fold of the new religion. It appears as if some are taking the land physically in his possession and the helpless trees go with it to the new master.
+Mr. President I stand here to support the amendment moved by Mr.Munshi. I believe that by accepting the amendment we shall be doing justice to those minors who have perforce to enter the fold of the religion which their parents embrace out of their greed. This practice is like the one prevailing in the transactions of transfer of land and which is that 'trees go with the land'. It is on some such basis that the minor children who do not understand what change of religion or coercion or religious practices mean, have to leave their old faith along with their parents. This evil practice has a very bad effect, on the strength of our population. It is proper for us that we, who are framing the charts of Fundamental Rights, should safeguard their interests and save them from such automatic conversion. The dynamic conditions of our society make it more important than ever that we should incorporate such a provision in our Constitution as will prevent such practices. Such minors on attaining majority often regret that they were made to change their religion, improperly. Where ever the Europeans or the white races of Europe, who rule practically over the whole world, have gone, they have, as Missionaries. A study of the 'Prosperous India' by Digby shows that 'cross was followed by the sword'. The missionary was followed by the batons, the swords and the guns, It was in this way that they employed coercion for spreading their religions and for extending their Empire. At the same time, they put economic and political pressure on the indigenous tribes and consolidated the foundations of their dominion. We want such an amendment in this clause of Fundamental Rights that a person who wants to change his religion should be able to do so only after he is convinced through cool deliberation that the new religion is more satisfactory to him than the old one. For example it is only when I am convinced that Sikhism is preferable to Hinduism, that I should be able to change my religion. This right I believe we have. But no one should change religion out of greed and temptation. When the followers of one religion employ, sword and guns to attack a family consisting of a few members, the latter have no option but to accept the religion of the aggressors in order to save their lives. Such a conversion should be considered void and ineffective because it has been brought about through coercion and undue influence. In view of such conditions which exist today, conversion brought about through temptation and allurement is, in fact, not a conversion in the real sense of the term. I have a personal experience extending over a period of 24 years as to how the elders of the family are induced through prospects of financial gain to change their religion and also with them the children are taken over to the fold of the new religion. It appears as if some are taking the land physically in his possession and the helpless trees go with it to the new master.
 
 
 3.20.198
@@ -5013,7 +5013,7 @@ I said it should form part of the Constitution.
 
 3.21.149
 President
-Mr. Sidhwa's proposition is that that paragraph should be adopted. Does anyone wish to speak on this? (None)  I put it to the House that paragraph 9 of the Report be adopted.
+Mr. Sidhwa's proposition is that that paragraph should be adopted. Does anyone wish to speak on this? (None) I put it to the House that paragraph 9 of the Report be adopted.
 
 Paragraph 9 of the Report was adopted.
 CLAUSE 2
@@ -5121,7 +5121,7 @@ Yes. I tell you why this could not be done. Our Hindustani Staff was not yet com
 
 3.21.169
 Shri Balkrishna Sharma
-Without in any way going against the orders which have already been given in regard to the subject, may I just know whether the arrangement that is going to be made for the translation of the Constitution in our language will be in Hindi, Urdu or will be in a language which will be a conglomeration of both ?  .
+Without in any way going against the orders which have already been given in regard to the subject, may I just know whether the arrangement that is going to be made for the translation of the Constitution in our language will be in Hindi, Urdu or will be in a language which will be a conglomeration of both ? .
 
 
 3.21.170
